@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Описание страницы с текстовыми элементами">
+    <title>Тестовая страница</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на мою HTML-страницу</h1>
+        <nav>
+            <a href="#section1">О нас</a> | 
+            <a href="#section2">Услуги</a>
+            <href="register.html"> Регистрация</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section1">
+            <h2>О нас</h2>
+            <p><strong>Мы занимаемся веб-разработкой</strong>, предоставляя услуги по созданию современных сайтов.</p>
+            <blockquote>«Технологии создаются, чтобы облегчить жизнь людей»</blockquote>
+            <ul>
+                <li>Веб-дизайн
+                    <ul>
+                        <li>Адаптивный дизайн</li>
+                        <li>UI/UX</li>
+                    </ul>
+                </li>
+                <li>Разработка сайтов</li>
+            </ul>
+        </section>
+
+        <section id="section2">
+            <h2>Услуги</h2>
+            <p><em>Мы предлагаем комплексные решения для бизнеса:</em></p>
+            <ol>
+                <li>Создание сайтов</li>
+                <li>SEO-оптимизация</li>
+            </ol>
+            <p>Узнать больше можно на <a href="https://example.com" target="_blank">нашем сайте</a>.</p>
+        </section>
+    </main>
+    <div class="media-container">
+        <video controls width="400" poster="https://www.example.com/poster.jpg">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Ваш браузер не поддерживает видео.
+        </video>
+        <button id="playVideo">Play</button>
+        <button id="pauseVideo">Pause</button>
+        <button id="muteVideo">Mute</button>
+    </div>
+    <div class="media-container">
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Ваш браузер не поддерживает аудио.
+        </audio>
+        <button id="playAudio">Play</button>
+        <button id="pauseAudio">Pause</button>
+        <button id="muteAudio">Mute</button>
+    </div>
+    <input type="text" id="textToCopy" value="Текст для копирования">
+<button id="copyButton">Копировать</button>
+<div>
+    <h2>Clipboard API</h2>
+    <input type="text" id="textToCopy" value="Текст для копирования">
+    <button id="copyButton">Копировать</button>
+</div>
+<div>
+    <h2>Geolocation API</h2>
+    <button id="geoButton">Определить местоположение</button>
+    <p id="geoOutput">Ваше местоположение: </p>
+</div>
+<div>
+    <h2>Notifications API</h2>
+    <button id="notifyButton">Показать уведомление</button>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Все права защищены.</p>
+    </footer>
+</body>
+</html>
